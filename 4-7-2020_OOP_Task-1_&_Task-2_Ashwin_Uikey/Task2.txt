@@ -1,0 +1,41 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+ class Student
+ {
+     public:
+     int roll;
+     string name;
+     float cgpa;
+     int year;
+
+    Student()
+    {
+        roll = 1;
+        name = "Ashwin";
+        year = 2;
+        cgpa = 9.4;
+    }
+    void showData()
+    {
+        cout<<"\nDetails are :\nRoll no : "<<roll<<"\nName : "<<name<<"\nYear : "<<year<<"\nCGPA : "<<cgpa;
+    }
+ };
+
+ void functn(int rank){
+     cout<<"Rank is "<<rank<<endl;
+ }
+ void functn(Student s){
+     s.showData();
+     cout<<"\nNo Rank\n";
+ }
+ void functn(Student s,int rank){
+     s.showData();
+     cout<<"\nRank is "<<rank<<endl;
+ }
+ int main(){
+     Student s;
+     functn(2);
+     functn(s);
+     functn(s,1);
+ }
