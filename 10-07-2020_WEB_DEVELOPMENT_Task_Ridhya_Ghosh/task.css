@@ -1,0 +1,54 @@
+#about-section
+{   margin-top: 0%;
+    text-align: center;
+    font-family: cursive;
+    font-size:x-large;
+    
+    color:gold;
+}
+
+#body
+{
+    background-image: url(akatsuki.jpg);
+    
+
+}
+
+#projects
+{
+    margin-left: 10%;
+    margin-top: 10%;
+    color: crimson;
+    font-family: fantasy;
+    font-style: oblique;
+   
+}
+
+.project-title
+{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+    
+    color:violet;
+    
+}
+
+#education
+{
+    margin-top: 50px;
+    margin-left: 10%;
+    color:cyan;
+    font-size: large;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+#edu
+{
+    font-size: 25px;
+    color:greenyellow;
+    font-family: fantasy;
+    font-style: normal;
+}
+
