@@ -1,0 +1,73 @@
+body{
+    background-image: url(../images/bg.jpg);
+}
+
+
+
+
+
+
+#first
+{
+    float: left;
+    width: 100%;
+    
+}
+
+
+
+
+.intro
+{
+   display: inline;
+   margin-left: 50px;
+   
+}
+
+
+#user-image
+{
+    display: inline;
+    vertical-align: middle;
+}
+
+
+p{
+    display: inline;
+    
+}
+
+#skills
+{
+    margin-top: 350px;
+    margin-left: 30px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top: solid black;
+    width: 55%;
+   
+    
+}
+
+#projects
+{
+    margin-top: 600px;
+    margin-left: 30px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top: solid black;
+    width: 55%;
+}
+
+.proj{
+    text-decoration: none;
+}
+
+
+.proj:hover
+{
+    color: gold;
+    
+}
