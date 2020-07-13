@@ -1,0 +1,93 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg1.jpg") fixed no-repeat;
+    background-size: cover;
+}
+
+.login-box
+{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: gold;
+}
+
+.login-box h1
+{
+    display: block;
+    font-size: 40px;
+    float: left;
+    border-bottom: 6px solid gold;
+    margin-bottom: 50px;
+    padding: 12px 0px;
+
+}
+
+.form_input
+{
+    width: 100%;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.form_input input
+{
+    border: none;
+    background: none;
+    outline: none;
+    color:gold;
+    font-size: 25px;
+    
+    width: 80%;
+    font-family: fantasy;
+    
+}
+
+.submit-btn{
+    width: 100%;
+    background: none;
+    font-size: 30px;
+    font-family: fantasy;
+    padding: 5px;
+    margin-top: 20px;
+    color: gold;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.submit-btn:hover
+{
+    color: gold;
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+.signup
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+.signup a
+{
+    
+    text-decoration: none;
+    color: green;
+}
+
+.signup a:hover
+{
+    color:lightskyblue;
+    transition: 0.5s;
+}
