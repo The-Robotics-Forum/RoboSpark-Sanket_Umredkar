@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.7)), url(elon.jpg);
+    background-size: cover;
+    align-self: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+div{
+    color: white;
+}
+
+.about{
+    text-align: center;
+
+}
+
+.image{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.language{
+    margin-left: 30px;
+}
+
+.project{
+    margin-right: 20px;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+a{
+    color: white;
+}
